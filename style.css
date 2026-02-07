@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  width: 140px;
+  width: clamp(220px, 45vw, 420px); /* kb. 3× desktopon, de mobilon okos */
   margin-bottom: 24px;
 }
 
@@ -45,3 +45,4 @@ h1 {
 .contact:hover {
   text-decoration: underline;
 }
+
